@@ -15,7 +15,7 @@ const doBackup = async (dbConfigurations: any) => {
 
         const backupFilename = `${dbName}_${timestamp}.bkp`;
 
-        const outputFilePath = path.join(__dirname, `../files/${backupFilename}`)
+        const outputFilePath = path.join(__dirname, `../public/files/${backupFilename}`)
       
         const command = `PGPASSWORD="${config.password}" pg_dump -U ${config.user} -h ${config.host} -p ${config.port} ${config.database} > ${outputFilePath}`;
       
