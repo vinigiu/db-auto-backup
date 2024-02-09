@@ -3,6 +3,7 @@
     "start": "ts-node app/backupper.ts"
   },
   "dependencies": {
+    "dotenv": "^16.4.1",
     "pg-promise": "^11.5.4",
     "ts-node": "^10.9.1"
   },

@@ -1,3 +1,7 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 export const dbConfigurations = [
   {
     host: process.env.TRIAL_HOST,
