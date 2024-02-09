@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "ts-node app/backupper.ts"
+  },
+  "dependencies": {
+    "pg-promise": "^11.5.4",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  }
+}
